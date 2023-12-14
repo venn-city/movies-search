@@ -60,7 +60,7 @@ export async function loader({ request }: LoaderFunctionArgs) {
   const res = await fetch(endpoint)
 
   /**
-   * Unfortunately there is not way to define the type of the response
+   * Unfortunately there is no way to define the type of the response
    * so we are forced to cast it to the type that we expect it to be.
    */
   const json = (await res.json()) as ApiResponse<Movie[]>
