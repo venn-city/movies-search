@@ -2,6 +2,8 @@
 
 This repository is meant to serve as an example for our ideal solution to the FE home assignment.
 
+<img width="918" alt="Screen Shot 2023-12-14 at 11 17 59" src="https://github.com/venn-city/movies-search/assets/57285837/e632a0a0-7511-4b84-a8df-d5273b2eb947">
+
 ## Do's
 
 1. **Use a router and the URL** - We believe that the best and easiest way to deal with filtering and sorting is by leveraging the URL and search params. A client-side router gives you the primitives you need to manipulate the URL in response to user input.
